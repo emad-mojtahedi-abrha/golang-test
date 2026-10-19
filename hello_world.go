@@ -7,7 +7,7 @@ import (
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-	response := "Hello World 333 - 3 - no env"
+	response := "Hello World from dev-1"
 
 	fmt.Fprintln(w, response)
 	fmt.Println("Servicing request.")
